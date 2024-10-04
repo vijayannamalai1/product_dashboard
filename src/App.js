@@ -10,7 +10,7 @@ import './index.css'
 function App() {
   return (
     <ProductProvider>
-      <Router>
+      <Router basename="/product_dashboard">
         <div className="container">
           <Routes>
             <Route path="/" element={<Home />} />
