@@ -1,4 +1,3 @@
-// src/components/Pagination.js
 import React, { useContext } from 'react';
 import { ProductContext } from '../context/ProductContext';
 
@@ -10,7 +9,7 @@ const Pagination = () => {
     pageNumbers.push(i);
   }
 
-  if (totalPages === 1) return null; // No pagination needed
+  if (totalPages === 1) return null; 
 
   return (
     <nav>

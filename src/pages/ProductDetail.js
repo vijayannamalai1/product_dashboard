@@ -70,7 +70,7 @@ const ProductDetail = () => {
             <p>{product.description}</p>
             <h3>${product.price}</h3>
 
-            {/* Display Rating */}
+       
             <div className="rating">
               <p className="mb-1">
                 <strong>Rating:</strong>
